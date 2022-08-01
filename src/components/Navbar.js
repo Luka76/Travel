@@ -36,7 +36,7 @@ const Navbar = () => {
             {/* <img src="../assets/travel.png" alt="" /> */}
             TRVL <i className="fab fa-typo3" />
           </Link>
-          <div className="menu__icon" onClick={clickHandler}>
+          <div className="menu-icon" onClick={clickHandler}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -48,7 +48,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 to="/services"
-                className="nav-Links"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Services
@@ -57,7 +57,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 to="/products"
-                className="nav-Links"
+                className="nav-links"
                 onClick={closeMobileMenu}
               >
                 Products
@@ -66,7 +66,7 @@ const Navbar = () => {
             <li className="nav-item">
               <Link
                 to="/sign-up"
-                className="nav-Links-mobile"
+                className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
                 Sign Up
